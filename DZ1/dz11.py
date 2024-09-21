@@ -48,9 +48,30 @@ else:
 """
 
 
+"""
+#Задание 1. Язык математики
+a = 8
+b = 10
+c = 12
+d = 18
+lineup = ((-3 + a ** 2) * b - 2 ** 3)
+linedown = (c - 2 * d)
+result = lineup / linedown
+print(result)
+"""
 
+"""
+#Задача 2. Часы
+min = int(input('Введите число мин: '))
+chas = min // 60
+finmin = min % 60
+#print(chas) 
+#print('часов')
+#print(finmin) 
+#print('минут')
 
-
+print(chas, 'час', finmin ,'минут',)
+"""
 
 """
 #Задача 3. Счастливый билет
