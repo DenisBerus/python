@@ -41,3 +41,22 @@ while hour != 8:
     if go_to_store:
         print('Нужно зайти в магазин')
 """
+
+
+"""
+#Задача 3. Игра «Угадай число»
+
+""""""
+number = 7
+count = 0
+while True:
+    num = int(input('Введите число: '))
+    count += 1
+    if num > number:
+        print('Число больше, чем нужно. Попробуйте ещё раз!')
+    elif num < number:
+        print('Число меньше, чем нужно. Попробуйте ещё раз!')
+    else:
+        print('Вы угадали! Число попыток:', count)
+        break
+"""
