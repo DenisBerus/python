@@ -36,7 +36,7 @@ plt.show()
 
 
 """
-import pandas as pd
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 # Загрузка данных из CSV-файла
