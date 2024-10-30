@@ -44,10 +44,8 @@ df = pd.read_csv('data.csv')
 # Создание точечного графика с использованием Seaborn
 # Ось X: зарплата (salary)
 # Ось Y: бонусы (bonus)
-# Размер точек пропорционален количеству лет в компании
-(years_at_company)
-sns.scatterplot(x='salary', y='bonus', size='years_at_company',
-data=df)
+# Размер точек пропорционален количеству лет в компании (years_at_company)
+sns.scatterplot(x='salary', y='bonus', size='years_at_company', data=df)
 # Настройка заголовка графика
 plt.title('Salary vs Bonus with Years at Company')
 # Настройка меток осей
